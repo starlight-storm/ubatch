@@ -4,16 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>sample</groupId>
-	<artifactId>batch-entry</artifactId>
+	<artifactId>chunk-entry</artifactId>
 	<version>1.0.0-RELEASE</version>
 	<packaging>jar</packaging>
-	<name>Batch Entry</name>
+	<name>chunk-entry</name>
 	<url>http://www.springframework.org/spring-batch/archetypes/simple-cli-archetype</url>
-	<description>
-		<![CDATA[
-      This project is a minimal command line batch sample from Spring Batch.  
-    ]]>
-	</description>
 	<properties>
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
 		<spring.framework.version>4.1.6.RELEASE</spring.framework.version>
@@ -157,4 +152,5 @@
 		</pluginRepository>
 	</pluginRepositories>
  
+	<description>Spring Batch Training</description>
 </project>

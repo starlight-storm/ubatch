@@ -4,16 +4,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>sample</groupId>
-	<artifactId>batch-basic</artifactId>
+	<artifactId>tasklet-basic-answer</artifactId>
 	<version>1.0.0-RELEASE</version>
 	<packaging>jar</packaging>
-	<name>Batch Basic</name>
+	<name>tasklet-basic-answer</name>
 	<url>http://www.springframework.org/spring-batch/archetypes/simple-cli-archetype</url>
-	<description>
-		<![CDATA[
-      This project is a minimal command line batch sample from Spring Batch.
-    ]]>
-	</description>
+	<description>Spring Batch Training</description>
 	<properties>
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
 		<spring.framework.version>4.1.6.RELEASE</spring.framework.version>

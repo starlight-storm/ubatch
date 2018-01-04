@@ -9,7 +9,7 @@
 ・ダイアログが出てくるのでTypeに「HSQL Database Engine Server」を選択すればOK。
 
 [Eclipseからの動作確認]
-1.chunk-basicプロジェクトを選択し、右クリックでRun as > Run Configurations...を選択する。
+1.chunk-basic-answerプロジェクトを選択し、右クリックでRun as > Run Configurations...を選択する。
 2.ダイアログが表示されるので、mainタブのプロジェクトに「chunk-basic-answer」を、mainクラスに「org.springframework.batch.core.launch.support.CommandLineJobRunner」を設定する。
 3.Argumentタブを選択し、Proguram argumentsに「classpath:/batch-context.xml job1 inputFile=classpath:/product_csv/1.csv」を設定する。
 4.Runボタンをクリックすると、バッチが実行される。
